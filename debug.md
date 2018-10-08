@@ -2,5 +2,5 @@
 ---
 
 <pre>
-{{ site | jsonify }}
+{{ site | jsonify | xml_escape }}
 </pre>
