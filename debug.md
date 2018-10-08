@@ -1,13 +1,14 @@
 ---
 ---
 
-<pre id="debug-json">
+<pre id="json">
+  {{ site | jsonify | xml_escape }}
 </pre>
 
 <script>
-  var debug = JSON.parse(`
-    {{ site | jsonify | xml_escape }}
-  `);
+  let pre = document.getElementById('json');
+  let json = pre.innerText;
+  let pojo = JSON.parse(json);
 
-  document.getElementById('debug-json').innerText = JSON.stringify(debug, null, 2);
+  pre.innerText = JSON.stringify(pojo, null, 2);
 </script>
