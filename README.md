@@ -1,6 +1,6 @@
 GitHub Pages theme for APIDevTools.org
 =======================================
-> This is the [GitHub Pages](https://pages.github.com/) theme for the API Dev Tools projects.
+This is the [GitHub Pages](https://pages.github.com/) theme for the API Dev Tools projects.
 
 ## Examples
 * [Swagger CLI](https://apidevtools.org/swagger-cli/)
