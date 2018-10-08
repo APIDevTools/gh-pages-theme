@@ -1,0 +1,6 @@
+---
+---
+
+<pre>
+{{ site | jsonify }}
+</pre>
