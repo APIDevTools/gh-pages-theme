@@ -14,3 +14,6 @@ defaults:
       path: ""
     values:
       image: /img/logos/card.png
+
+plugins:
+  - jekyll-sitemap
