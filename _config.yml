@@ -1,4 +1,4 @@
-logo: http://apidevtools.org/img/logos/logo.png
+logo: https://apidevtools.org/img/logos/logo.png
 
 author:
   twitter: APIDevTools
@@ -13,7 +13,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: http://apidevtools.org/img/logos/card.png
+      image: https://apidevtools.org/img/logos/card.png
 
 plugins:
   - jekyll-sitemap
