@@ -1,7 +1,7 @@
 # Jekyll configuration
 # https://jekyllrb.com/docs/configuration/
 
-logo: https://apitools.dev/img/logos/logo.png
+logo: https://apidevtools.com/img/logos/logo.png
 repository: APIDevTools/gh-pages-theme
 
 author:
@@ -17,7 +17,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: https://apitools.dev/img/logos/card.png
+      image: https://apidevtools.com/img/logos/card.png
 
 # Also don't watch these files when running "jekyll serve".
 exclude:
